@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/carback"
+    tools:context=".Activity_TelaInicio"
+android:layout_marginBottom="20dp"    >
+
+    <TextView
+        android:id="@+id/txtTituloItemView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtSobreItemView"
+        android:layout_marginEnd="300dp"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/txtSobreItemView"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:inputType="textMultiLine"
+        android:text="@string/sobre_o_curso"
+        android:textColor="#ffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloItemView"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        />
+
+    <ToggleButton
+        android:id="@+id/btnParticipar"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textOff="@string/apoiar"
+        android:textOn="@string/apoiando"
+        app:layout_constraintTop_toBottomOf="@+id/txtSobreItemView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/toggle_selector"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtTagItemView"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/txtTagItemView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CURSO:"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/txtSobreItemView"
+        app:layout_constraintEnd_toStartOf="@+id/btnParticipar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txtQtdParticipantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        app:layout_constraintTop_toTopOf="@+id/btnParticipar"
+        app:layout_constraintBottom_toBottomOf="@+id/btnParticipar"
+        app:layout_constraintEnd_toStartOf="@+id/btnParticipar"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        />
+
+        
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

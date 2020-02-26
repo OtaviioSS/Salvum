@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "212189422381",
+    "firebase_url": "https://salvum-18b8a.firebaseio.com",
+    "project_id": "salvum-18b8a",
+    "storage_bucket": "salvum-18b8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212189422381:android:f063e5be9c4d8c6b15e9a4",
+        "android_client_info": {
+          "package_name": "com.example.salvum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212189422381-u5iueqoa3g9d70refsn2trlglb0vau6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salvum",
+            "certificate_hash": "df7fdf6aff0bbe59cf6532220a6ec43b649828b2"
+          }
+        },
+        {
+          "client_id": "212189422381-cuq9f2jflrs2ck5h203t2p10ch3b7140.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJCCEfvGCwiwue4_H8keD9Mh8LcvTxBgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212189422381-cuq9f2jflrs2ck5h203t2p10ch3b7140.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
