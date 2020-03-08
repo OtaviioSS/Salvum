@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">salvum</string>
+    <string name="titulo">Titulo</string>
+    <string name="titulo_do_curso">Titulo do Curso</string>
+    <string name="criar">Criar</string>
+    <string name="email">Email</string>
+    <string name="telefone">Telefone</string>
+    <string name="cadastrar_se">Cadastrar-SE</string>
+    <string name="cadastro_de_usuario">Cadastro de Usuario</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="registre_se">Ainda não tem conta? Registre-se!</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="login">Login</string>
+    <string name="curso">Cursos:</string>
+    <string name="sobre_o_curso">Escreva aqui sobre o curso o assunto que deseja ser abordado o objetivo</string>
+    <string name="adicionar_curso">adicionar curso</string>
+    <string name="perfil">perfil</string>
+    <string name="inicio">inicio</string>
+    <string name="sair">sair</string>
+    <string name="criar_cursos">Criar Cursos</string>
+    <string name="apoiar">Apoiar</string>
+    <string name="apoiando">Apoiando</string>
+    <string name="cursos">CURSOS:</string>
+    <string name="matricula">Matricula</string>
+    <string name="nome">Nome</string>
+    <string name="cursos_apoaiados">Cursos apoaiados</string>
+</resources>
